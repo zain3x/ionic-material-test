@@ -4,7 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { MatButtonModule } from '@angular/material';
+import { MatButtonModule, MatDatepickerModule, MatNativeDateModule } from '@angular/material';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
@@ -28,6 +28,8 @@ import { ComponentsPage } from '../pages/components/components';
     /* material design module */
     BrowserAnimationsModule,
     MatButtonModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
 
     IonicModule.forRoot(MyApp),
   ],
